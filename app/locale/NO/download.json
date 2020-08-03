@@ -1,0 +1,8 @@
+{
+    "TITLE": "Evalueringsrapport for nettstedets tilgjengelighet",
+    "INTRO": "Nedenfor er evalueringsrapporten basert på innspillene du ga i forrige trinn. Du kan gå tilbake til tidligere trinn nå og endre hvilken som helst av denne informasjonen. Du kan laste ned evalueringsdataene slik at du kan jobbe med de senere (dette er det samme som 'Lagre'-funksjonaliteten). <br> Denne rapporten er ment å lastes ned. Du kan laste ned evalueringsrapportens HTML- og CSS-filer nedenfor. Du kan deretter endre innhold og design i rapporten etter behov.",
+    "DOWNLOAD_REPORT": "Last ned og tilpass denne rapporten",
+    "BTN_SAVE_HTML": "Last ned evalueringsrapporten (HTML)",
+    "BTN_SAVE_CSS": "Last ned rapportens stilark (CSS)",
+    "BTN_SAVE_JSON": "Lagre evalueringsdataene (JSON)"
+}

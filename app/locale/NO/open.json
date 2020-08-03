@@ -1,0 +1,7 @@
+{
+    "TITLE": "Åpne rapport",
+    "INTRO": "For å laste inn en lagret fil, klikk 'Velg fil...' og velg JSON-filen som du har lagret tidligere.",
+    "LABEL_SELECT_FILE": "Velg fil...",
+    "MSG_LOADING": "Laster evalueringen, vent ...",
+    "BTN_LOAD_FILE": "Last inn data fra valgt fil"
+}

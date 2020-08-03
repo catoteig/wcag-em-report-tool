@@ -1,0 +1,23 @@
+{
+    "TITLE": "Trinn 3: Velg et representativ utvalg",
+    "INTRO": "Velg nettsider for evaluering. Merknadene du gjorde under utforskningen i forrige trinn er gjengitt her for å hjelpe deg med å velge nettsider. Forsikre deg om at de valgte sidene er representative for målnettstedet. Mer veiledning om dette trinnet finnes i <a href={{link_em_3}}> WCAG-EM Trinn 3: Velg et representativt utvalg</a>.",
+    "HD_STRUCT_SAMPLE": "Strukturert utvalg",
+    "HD_ESSENT_FUNC": "Viktig funksjonalitet (valgfrie notater fra forrige trinn)",
+    "HD_VARIETY_PAGE_TYPES": "Ulike nettsidetyper (valgfrie notater fra forrige trinn)",
+    "HD_STRUCT_SAMPLE_SUB": "Strukturerte eksempler på nettsider",
+    "INF_STRUCT_SAMPLE": "Velg nettsider som gjenspeiler alle identifiserte (1) vanlige nettsider, (2) essensiell funksjonalitet, (3) typer nettsider, (4) neeknologier som er avhengige av og (5) andre relevante nettsider. Hvis du vil ha mer informasjon, kan du se <a href=is/link_em_3a }>> WCAG-EM trinn 3.a: Ta med et strukturert utvalg </a>. <br> Merk: 'nettsider' inkluderer forskjellige 'nettside-tilstander'; se definisjon av <a href=is?link_em_state}}> nettsidestater </a>. ",
+    "HD_RANDOM_SAMPLE": "Tilfeldig valgt utvalg",
+    "INF_RAND_SAMPLE": "Velg eksemplenettsider tilfeldig; velg 10% av det strukturerte utvalget som er valgt over. For mer informasjon, se <a href={{link_em_3b}}>WCAG-EM Step 3.b: Velg et tilfeldig valgt utvalg</a>.<br> Merk: 'Nettsider' inkluderer forskjellige nettsidetilstander; se definisjonen av <a href={{link_em_state}}> nettsidestatus</a>.",
+    "RAND_SAMPLE_LENGTH": "Basert på det strukturerte utvalget av {{total}} nettsider, velg minst {{count}} tilfeldig valgte nettsider for å oppfylle kravet på 10% i WCAG-EM.",
+    "LABEL_HANDLE": "Kort navn",
+    "LABEL_PAGE": "Adresse (URL) eller beskrivelse",
+    "NO_PAGES_DEFINED": "Ingen sider er definert for denne listen",
+    "ITEM": "Nettside",
+    "PLH_TITLE": "Identifikator for nettsiden",
+    "PLH_PAGE_URL": "Adresse (URL) eller beskrivelse av hvordan du kommer dit",
+    "BTN_ADD_PAGE": "Legg til nettside",
+    "BTN_REMOVE_PAGE": "Fjern side",
+    "STRUCTURED_PAGE": "Strukturert side",
+    "RANDOM_PAGE": "Tilfeldig side",
+    "SAMPLE_PAGE": "Eksempelside"
+}

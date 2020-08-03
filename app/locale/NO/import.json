@@ -1,0 +1,5 @@
+{
+    "TITLE": "Importer en WCAG EARL-rapport",
+    "INTRO": "Hvis du har brukt en annen applikasjon til å generere en WCAG EARL-rapport som faller inn under omfanget av denne evalueringen, kan det hende du kan importere disse og legge dem til evalueringsrevisjonsresultatet. Filen i seg selv skal være: JSON-LD parsebar, bestå av objekter i EARL-format og evalueringstester bør være relatert til WCAG. ",
+    "LABEL_SELECT_FILE": "Velg en JSON-LD-fil"
+}

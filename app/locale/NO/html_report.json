@@ -1,0 +1,21 @@
+{
+    "BY": "Rapportoppretter:",
+    "COMMISION_BY": "Evalueringskommissær:",
+    "HD_SUMMARY": "Sammendrag av evalueringsfunnene",
+    "HD_SCOPE": "Evalueringens omfang",
+    "LABEL_SITE_NAME": "Navn på nettstedet",
+    "LABEL_SITE_SCOPE": "Omfanget av nettstedet",
+    "LABEL_CONFORMANCE_TGT": "Samsvarsmål",
+    "LABEL_EXTRA_REQUIREMENTS": "Ytterligere evalueringskrav",
+    "LABEL_SUPPORT_BASE": "Baseline-støtte for tilgjengelighet",
+    "LABEL_RELIEDUP_TECH": "Avhengig av teknologier",
+    "HD_SCORE": "Oversikt over tilsynsresultater",
+    "RESULTS_OF": "Resultater av",
+    "PRINCIPLE": "Prinsipp",
+    "TOTAL_SCORE": "Totalt",
+    "HD_CRITERIA_REPORT": "Detaljerte revisjonsresultater",
+    "LABEL_DESCR": "Funn",
+    "HD_SAMPLE": "Eksempel på reviderte nettsider",
+    "HD_SPECIFICS": "Innspilling av evalueringsspesifikasjoner",
+    "HD_DOCS": "Relaterte WCAG 2-ressurser"
+}

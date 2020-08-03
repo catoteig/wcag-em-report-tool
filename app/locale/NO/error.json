@@ -1,0 +1,8 @@
+{
+    "TITLE": "Oops! Noe gikk galt",
+    "INTRO": "Dette er ikke siden du leter etter. Prøv en av disse løsningene for å løse problemet.",
+    "SUGGESTION1": "Hvis du skrev inn nettadressen, må du forsikre deg om at den er nøyaktig hva den skal være.",
+    "SUGGESTION2": "Gå <a href={{link_back}}>tilbake til forrige side</a> og prøv igjen.",
+    "SUGGESTION3": "Forsikre deg om at filene du arbeider fra, følger <a href={{link_format}}>WCAG-EM-format</a>.",
+    "BUG_REPORT": "Hvis du vil rapportere eventuelle feil eller forslag til funksjoner, kan du opprette en sak på vår <a href={{link_github}}>prosjektside på Github</a>."
+}

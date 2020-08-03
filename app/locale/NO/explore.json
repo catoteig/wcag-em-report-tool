@@ -1,0 +1,19 @@
+{
+    "TITLE": "Trinn 2: Utforsk målnettstedet",
+    "INTRO": "Utforsk nettstedet for å forstå dets formål, funksjonalitet og bruk. Dette trinnet hjelper deg med å bestemme hvilke nettsider du skal bruke til evalueringen i de neste trinnene. Identifiser netteknologiene som brukes til å tilby nettstedet, og hvis du vil , notater om andre sider av nettstedet. Vanligvis er det best å få innspill fra nettstedseierne og utviklerne for dette trinnet. Mer veiledning om dette trinnet er gitt i <a href=is.link_em_2}}> WCAG-EM trinn 2 : Utforsk målnettstedet </a>. ",
+    "HD_RELIEDUP_TECH": "Teknologier som nettstedet er avhengig av",
+    "INF_RELIEDUP_TECH": "Identifiser netteknologiene løsningen er <a href={{link_relied_upon}}>avhengig av i henhold til WCAG 2</a> for å vises. For mer informasjon, se <a href={{link_em_2d}}>WCAG-EM Trinn 2.d: Identifiser relaterte netteknologier</a>. <br> Merk: Hvis du vil legge til andre teknologier, velger du 'andre...' og bruker feltet 'netteknologi' og 'spesifikasjonsadresse (URL)'. Spesifikasjonsadresse-feltet skal identifisere spesifikasjonen for netteknologien.",
+    "LABEL_TECH": "Netteknologi",
+    "LABEL_TECH_SPEC": "Spesifikasjonsadresse (URL)",
+    "PLH_TECH": "F.eks. HTML5, CSS, DOM",
+    "PLH_TECH_SPEC": "Adresse (URL) eller beskrivelse for spesifikasjonen for netteknologi",
+    "BTN_REMOVE_TECH": "Fjern teknologi",
+    "BTN_ADD_TECH": "Legg til netteknologi",
+    "HD_NOTE_TAKING": "Valgfrie utforskningsnotater",
+    "INF_NOTE_TAKING": "Denne delen lar deg registrere informasjon under utforskningen av nettstedet. Disse merknadene er gitt i neste trinn, for å hjelpe deg med å velge et utvalg av nettsider for evaluering. <strong> Disse merknadene er ikke inkludert i den endelige rapporten. </strong> De lagres når du lagrer filen, og er tilgjengelige når du senere laster inn filen på nytt ",
+    "LABEL_ESSENT_FUNC": "Viktig funksjonalitet på nettstedet",
+    "INF_ESSENT_FUNC": "Du kan bruke dette feltet til å ta notater om essensiell funksjonalitet på nettstedet. Eksempler på essensiell funksjonalitet inkluderer: <br> 'valg og kjøp av et produkt fra butikkområdet til nettstedet' <br> 'som fullfører og sender inn et skjema som leveres på nettstedet '<br>' som registrerer seg for en konto på nettstedet '<br> For mer informasjon, se <a href={{link_em_2b}}> WCAG-EM Trinn 2.b: Identifiser essensiell funksjonalitet av nettstedet betaler. ",
+    "LABEL_VARIETY_PAGE_TYPES": "Ulike typer nettsider",
+    "INF_VARIETY_PAGE_TYPES": "Du kan bruke dette feltet til å ta notater om typene (i motsetning til ulike instanser) av nettsider som du finner på nettstedet. Dette inkluderer merknader om forskjellige stiler, oppsett, struktur og funksjonalitet som tilbys på nettstedet. Hvis du vil ha mer informasjon, kan du se <a href=is/link_em_2c>> WCAG-EM trinn 2.c: Identifiser ulike nettsidetyper</a>. <br> Merk: 'Nettsider' inkluderer ulike 'nettsidestatuser'; se definisjon av <a href={{link_page_state}}>nettsidestatus</a>.",
+    "LABEL_OTHER": "Andre..."
+}

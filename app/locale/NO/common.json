@@ -1,0 +1,14 @@
+{
+    "BROWSER_NOT_SUPPORTED": "Nettleseren du bruker støtter ikke enkelte funksjoner, for eksempel å lagre og laste rapporter. Du kan fortsette å bruke rapportverktøyet med begrenset funksjonalitet. Oppdater eller bruk en annen nettleser for å kunne bruke all funksjonalitet i dette verktøyet. ",
+    "WARNING_BEFORE_UNLOAD": "Dataene du oppga lagres ikke automatisk. De vil gå tapt hvis du lukker dette nettleservinduet. Bruk 'Lagre'-lenken (Ctrl + S eller ⌘ S) som er øverst på alle sidene for å lagre dataene dine i en fil lokalt på datamaskinen din, og legg dem inn på nytt senere for å fortsette å jobbe med dem.",
+    "MORE_INFO": "For mer informasjon, se <a href={{url}}>{{name}}</a>.",
+    "HIDE_MESSAGE": "Skjul melding",
+    "BTN_INFO": "Info utvide",
+    "BTN_CLOSE_INFO": "Lukk info",
+    "YES": "Ja",
+    "NO": "Nei",
+    "CLICK_EXPAND": "Klikk for å vise seksjonen",
+    "CLICK_COLLAPSE": "Klikk for å skjule seksjonen",
+    "TO_TOP": "Tilbake til toppen",
+    "ACTIVE": "Aktiv"
+}

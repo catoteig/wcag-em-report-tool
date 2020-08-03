@@ -1,0 +1,10 @@
+{
+    "PASSED": "Bestått",
+    "FAILED": "Mislyktes",
+    "CANT_TELL": "Ukjent",
+    "NOT_PRESENT": "Ikke til stede",
+    "NOT_CHECKED": "Ikke kontrollert",
+    "LEVEL_A": "Nivå A",
+    "LEVEL_AA": "Nivå AA",
+    "LEVEL_AAA": "Nivå AAA"
+}

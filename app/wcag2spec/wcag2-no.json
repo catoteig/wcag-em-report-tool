@@ -1,0 +1,896 @@
+{
+    "principles": [
+        {
+            "id": "WCAG2:perceivable",
+            "num": "1",
+            "handle": "Mulig å oppfatte",
+            "text": "informasjon og brukergrensesnittkomponenter må presenteres for brukere på måter som de kan oppfatte.",
+            "guidelines": [
+                {
+                    "id": "WCAG2:text-equiv",
+                    "num": "1.1",
+                    "handle": ". Tekstalternativer",
+                    "text": "Gi tekstalternativer til alt ikke-tekstlig innhold, slik at det kan konverteres til formater som brukerne har behov for, for eksempel stor skrift, blindeskrift, tale, symboler eller enklere språk.",
+                    "successcriteria": [
+                        {
+                            "id": "WCAG2:text-equiv-all",
+                            "num": "1.1.1",
+                            "handle": "Ikke-tekstlig innhold",
+                            "text": "Alt ikke-tekstlig innhold som presenteres for brukeren, har et tekstalternativ som har samme formål, med unntak av situasjonene som er beskrevet nedenfor.",
+                            "level": "A",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Kontrollelementer, inndata",
+                                            "text": "Hvis det ikke-tekstlige innholdet er et kontrollelement eller hvis det godtar inndata fra brukere, har det et navn som beskriver formålet. (Under retningslinje 4.1 finnes informasjon om ytterligere krav til kontrollelementer samt innhold som godtar inndata fra brukere.)"
+                                        },
+                                        {
+                                            "handle": "Tidsbaserte medier",
+                                            "text": "Hvis det ikke-tekstlige innholdet er tidsbaserte medier, må tekstalternativene som et minimum gi en beskrivende identifikasjon av det ikke-tekstlige innholdet. (Under retningslinje 1.2 er det informasjon om ytterligere krav til medier.)"
+                                        },
+                                        {
+                                            "handle": "Test",
+                                            "text": "Hvis det ikke-tekstlige innholdet er en test eller øvelse som ikke ville gitt mening hvis den ble presentert med tekst, må tekstalternativene som et minimum gi en beskrivende identifikasjon av det ikke-tekstlige innholdet."
+                                        },
+                                        {
+                                            "handle": "Sanseopplevelse",
+                                            "text": "Hvis formålet med det ikke-tekstlige innholdet først og fremst er å skape en spesifikk sanseopplevelse, må tekstalternativene som et minimum gi en beskrivende identifikasjon av det ikke-tekstlige innholdet."
+                                        },
+                                        {
+                                            "handle": "CAPTCHA",
+                                            "text": "Hvis formålet med det ikke-tekstlige innholdet er å bekrefte at innholdet brukes av en person, og ikke av en datamaskin, skal det gis tekstalternativer som identifiserer og beskriver hensikten med det ikke-tekstlige innholdet. Det skal dessuten legges til rette for ulike typer funksjonsnedsettelser ved at det finnes alternative former for CAPTCHA som bruker utdataformater beregnet på ulike typer sensorisk persepsjon."
+                                        },
+                                        {
+                                            "handle": "Dekorasjon, formatering, usynlig",
+                                            "text": "Hvis det ikke-tekstlige innholdet er rendekorasjon, hvis det utelukkende brukes til visuell formatering, eller hvis det ikke presenteres for brukerne, skal det implementeres på en slik måte at det kan ignoreres av kompenserende teknologi."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "WCAG2:media-equiv",
+                    "num": "1.2",
+                    "handle": ". Tidsbaserte medier",
+                    "text": "Gi alternativer til tidsbaserte medier.",
+                    "successcriteria": [
+                        {
+                            "id": "WCAG2:media-equiv-av-only-alt",
+                            "num": "1.2.1",
+                            "handle": "Bare lyd og bare video (forhåndsinnspilt)",
+                            "text": "For forhåndsinnspilt innhold som bare er lyd eller video gjelder følgende, bortsett fra når lyden eller videoen utgjør et mediealternativ til tekst og er tydelig merket som det:",
+                            "level": "A",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Forhåndsinnspilt lyd (bare lyd)",
+                                            "text": "Det gis tilgang til et alternativ til tidsbaserte medier som presenterer informasjon som tilsvarer det forhåndsinnspilte lydinnholdet."
+                                        },
+                                        {
+                                            "handle": "Forhåndsinnspilt video (bare video)",
+                                            "text": "Det gis tilgang til enten et alternativ til tidsbaserte medier eller et lydspor som presenterer informasjon som tilsvarer det forhåndsinnspilte videoinnholdet."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:media-equiv-captions",
+                            "num": "1.2.2",
+                            "handle": "Teksting (forhåndsinnspilt)",
+                            "text": "Det gis tilgang til teksting for alt forhåndsinnspilt lydinnhold i synkroniserte medier, bortsett fra når mediene fungerer som mediealternativer til tekst og er tydelig merket som det.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:media-equiv-audio-desc",
+                            "num": "1.2.3",
+                            "handle": "Synstolking eller mediealternativ (forhåndsinnspilt)",
+                            "text": "Det gis tilgang til et alternativ til tidsbaserte medier eller synstolking av forhåndsinnspilt videoinnhold i synkroniserte medier, bortsett fra når mediene fungerer som mediealternativer til tekst og er tydelig merket som det.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:media-equiv-real-time-captions",
+                            "num": "1.2.4",
+                            "handle": "Teksting (direkte)",
+                            "text": "Det gis tilgang til teksting for alt direktesendt lydinnhold i synkroniserte medier.",
+                            "level": "AA"
+                        },
+                        {
+                            "id": "WCAG2:media-equiv-audio-desc-only",
+                            "num": "1.2.5",
+                            "handle": "Synstolking (forhåndsinnpilt)",
+                            "text": "Det gis tilgang til synstolking for alt forhåndsinnspilt videoinnhold i synkroniserte medier.",
+                            "level": "AA"
+                        },
+                        {
+                            "id": "WCAG2:media-equiv-sign",
+                            "num": "1.2.6",
+                            "handle": "Tegnspråk (forhåndsinnspilt)",
+                            "text": "Det gis tilgang til tegnspråkstolking for alt forhåndsinnspilt lydinnhold i synkroniserte medier.",
+                            "level": "AAA"
+                        },
+                        {
+                            "id": "WCAG2:media-equiv-extended-ad",
+                            "num": "1.2.7",
+                            "handle": "Utvidet synstolking (forhåndsinnspilt)",
+                            "text": "Hvis pausene i forgrunnslyden ikke er lange nok til at synstolking kan formidle innholdet i videoen, gis det tilgang til utvidet synstolking for alt forhåndsinnspilt videoinnhold i synkroniserte medier.",
+                            "level": "AAA"
+                        },
+                        {
+                            "id": "WCAG2:media-equiv-text-doc",
+                            "num": "1.2.8",
+                            "handle": "Mediealternativ (forhåndsinnspilt)",
+                            "text": "Det gis tilgang til et alternativ til tidsbaserte medier for alle forhåndsinnspilte synkroniserte medier og for alle forhåndsinnspilte rene videomedier.",
+                            "level": "AAA"
+                        },
+                        {
+                            "id": "WCAG2:media-equiv-live-audio-only",
+                            "num": "1.2.9",
+                            "handle": "Bare lyd (direkte)",
+                            "text": "Det gis tilgang til et alternativ til tidsbaserte medier som presenterer informasjon som tilsvarer direktesendt rent lydinnhold.",
+                            "level": "AAA"
+                        }
+                    ]
+                },
+                {
+                    "id": "WCAG2:content-structure-separation",
+                    "num": "1.3",
+                    "handle": ". Mulig å tilpasse",
+                    "text": "Lag innhold som kan presenteres på forskjellige måter (for eksempel med enklere layout) uten at informasjon eller struktur går tapt.",
+                    "successcriteria": [
+                        {
+                            "id": "WCAG2:content-structure-separation-programmatic",
+                            "num": "1.3.1",
+                            "handle": "Informasjon og relasjoner",
+                            "text": "Informasjon, struktur og relasjoner som formidles via presentasjonen, kan bestemmes programmeringsmessig eller gjøres tilgjengelig(e) som tekst.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:content-structure-separation-sequence",
+                            "num": "1.3.2",
+                            "handle": "Meningsfylt rekkefølge",
+                            "text": "Når rekkefølgen som innholdet presenteres i, påvirker meningsinnholdet, kan en korrekt leserekkefølge bestemmes programmeringsmessig.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:content-structure-separation-understanding",
+                            "num": "1.3.3",
+                            "handle": "Sensoriske egenskaper",
+                            "text": "Instruksjoner som gjelder for forståelse og betjening av innhold, er ikke utelukkende avhengige av komponentenes sensoriske egenskaper, for eksempel form, størrelse, visuell plassering, orientering eller lyd.",
+                            "level": "A",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad",
+                                    "text": "Mer informasjon om krav som gjelder farge, finnes under retningslinje 1.4."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "WCAG2:visual-audio-contrast",
+                    "num": "1.4",
+                    "handle": ". Mulig å skille fra hverandre",
+                    "text": "Gjør det enklere for brukerne å se og høre innhold, blant annet ved å skille forgrunnen fra bakgrunnen.",
+                    "successcriteria": [
+                        {
+                            "id": "WCAG2:visual-audio-contrast-without-color",
+                            "num": "1.4.1",
+                            "handle": "Bruk av farge",
+                            "text": "Farge blir ikke benyttet som det eneste visuelle virkemiddelet for å formidle informasjon, angi en handling, be om respons eller skille ut et visuelt element.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:visual-audio-contrast-dis-audio",
+                            "num": "1.4.2",
+                            "handle": "Styring av lyd",
+                            "text": "Hvis lyd på en webside spilles av automatisk i mer enn 3 sekunder, finnes det enten en mekanisme for å stoppe lyden helt eller midlertidig, eller en mekanisme som kan regulere lydstyrken uavhengig av det generelle systemvolumet.",
+                            "level": "A",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad",
+                                    "text": "Fordi enhver form for innhold som ikke oppfyller dette suksesskriteriet, kan hindre brukeren i å bruke hele siden, må alt innhold på websiden overholde dette suksesskriteriet (uansett om det brukes til å oppfylle andre suksesskriterier). Se Forutsetninger for overholdelse av krav, punkt 5: Ingen interferens."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:visual-audio-contrast-contrast",
+                            "num": "1.4.3",
+                            "handle": "Kontrast (minimum)",
+                            "text": "Den visuelle presentasjonen av tekst og bilder av tekst har et kontrastforhold på minst 4.5:1, unntatt i følgende tilfeller:",
+                            "level": "AA",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Stor tekst",
+                                            "text": "Stor skriftstørrelse og bilder av stor skriftstørrelse har et kontrastforhold på minst 3:1."
+                                        },
+                                        {
+                                            "handle": "Uvesentlig",
+                                            "text": "Tekst eller bilder av tekst som utgjør en del av en inaktiv brukergrensesnittkomponent, som er ren dekorasjon, som ikke er synlig(e) for noen, eller som utgjør en del av et bilde som inneholder annet vesentlig visuelt innhold, er ikke underlagt kontrastkrav."
+                                        },
+                                        {
+                                            "handle": "Logoer",
+                                            "text": "Tekst som utgjør en del av en logo eller et varemerkenavn, er ikke underlagt kontrastkrav."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:visual-audio-contrast-scale",
+                            "num": "1.4.4",
+                            "handle": "Endring av tekststørrelse",
+                            "text": "Med unntak av teksting og bilder av tekst kan tekst forstørres opp til 200 % uten bruk av kompenserende teknologi og uten at innhold eller funksjonalitet går tapt.",
+                            "level": "AA"
+                        },
+                        {
+                            "id": "WCAG2:visual-audio-contrast-text-presentation",
+                            "num": "1.4.5",
+                            "handle": "Bilder av tekst",
+                            "text": "Hvis teknologien som brukes kan håndtere den visuelle presentasjonen, brukes det tekst i stedet for bilder av tekst til å formidle informasjon, unntatt i følgende tilfeller:",
+                            "level": "AA",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Kan tilpasses",
+                                            "text": "Bildet av tekst kan visuelt tilpasses til brukerens krav."
+                                        },
+                                        {
+                                            "handle": "Nødvendig",
+                                            "text": "En bestemt presentasjon av tekst er nødvendig for informasjonen som formidles."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad",
+                                    "text": "Logoer (tekst som utgjør en del av en logo eller et varemerkenavn) anses som nødvendige."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:visual-audio-contrast7",
+                            "num": "1.4.6",
+                            "handle": "Kontrast (forbedret)",
+                            "text": "Den visuelle presentasjonen av tekst og bilder av tekst har et kontrastforhold på minst 7:1, unntatt i følgende tilfeller:",
+                            "level": "AAA",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Stor tekst",
+                                            "text": "Stor skriftstørrelse og bilder av stor skriftstørrelse har et kontrastforhold på minst 4.5:1."
+                                        },
+                                        {
+                                            "handle": "Uvesentlig",
+                                            "text": "Tekst eller bilder av tekst som utgjør en del av en inaktiv brukergrensesnittkomponent, som er ren dekorasjon, som ikke er synlig(e) for noen, eller som utgjør en del av et bilde som inneholder annet vesentlig visuelt innhold, er ikke underlagt kontrastkrav."
+                                        },
+                                        {
+                                            "handle": "Logoer",
+                                            "text": "Tekst som utgjør en del av en logo eller et varemerkenavn, er ikke underlagt kontrastkrav."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:visual-audio-contrast-noaudio",
+                            "num": "1.4.7",
+                            "handle": "Lav eller ingen bakgrunnslyd",
+                            "text": "For forhåndsinnspilt lydinnhold (bare lyd) som (1) primært inneholder tale i forgrunnen, (2) ikke er en lydbasert CAPTCHA-test eller lydbasert logo og (3) ikke er vokalisering med et primært musikalsk uttrykk, for eksempel sang eller rapping, gjelder minst ett av følgende punkter:",
+                            "level": "AAA",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Ingen bakgrunn",
+                                            "text": "Lydbildet inneholder ikke bakgrunnslyd."
+                                        },
+                                        {
+                                            "handle": "Slå av",
+                                            "text": "Bakgrunnslyden kan slås av."
+                                        },
+                                        {
+                                            "handle": "20 dB",
+                                            "text": "Lydstyrken på bakgrunnslyden er minst 20 desibel lavere enn taleinnholdet i forgrunnen, med unntak av tilfeldige lyder som bare varer i 1–2 sekunder. Merknad: Ifølge definisjonen av \"desibel\" vil bakgrunnslyd som oppfyller dette kravet, være ca. en fjerdedel av lydstyrken til taleinnholdet i forgrunnen."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad",
+                                    "text": "Ifølge definisjonen av \"desibel\" vil bakgrunnslyd som oppfyller dette kravet, være ca. en fjerdedel av lydstyrken til taleinnholdet i forgrunnen."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:visual-audio-contrast-visual-presentation",
+                            "num": "1.4.8",
+                            "handle": "Visuell presentasjon",
+                            "text": "For visuell presentasjon av tekstblokker finnes det en mekanisme for å oppnå følgende:",
+                            "level": "AAA",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "Brukeren kan velge forgrunns- og bakgrunnsfarger."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Bredden er ikke mer enn 80 tegn (40 for kinesisk, japansk og koreansk)."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Teksten er ikke blokkjustert (justert etter både høyre og venstre marg)."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Linjeavstanden er minst 1,5 innenfor avsnitt, og avstanden mellom avsnitt er minst 1,5 ganger større enn linjeavstanden."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Tekst kan forstørres opptil 200 % uten bruk av kompenserende teknologi og uten at brukeren må rulle vannrett for å lese en tekstlinje når vinduet dekker hele skjermen."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:visual-audio-contrast-text-images",
+                            "num": "1.4.9",
+                            "handle": "Bilder av tekst (ingen unntak)",
+                            "text": "Bilder av tekst brukes bare som ren dekorasjon eller hvis en bestemt presentasjon av tekst er nødvendig for formidling av informasjonen.",
+                            "level": "AAA",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad",
+                                    "text": "Logoer (tekst som utgjør en del av en logo eller et varemerkenavn) anses som nødvendige."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "WCAG2:operable",
+            "num": "2",
+            "handle": "Mulig å betjene",
+            "text": "Det må være mulig å betjene brukergrensesnittkomponenter og navigeringsfunksjoner.",
+            "guidelines": [
+                {
+                    "id": "WCAG2:keyboard-operation",
+                    "num": "2.1",
+                    "handle": ". Tilgjengelig med tastatur",
+                    "text": "Gjør all funksjonaliteten tilgjengelig med tastatur.",
+                    "successcriteria": [
+                        {
+                            "id": "WCAG2:keyboard-operation-keyboard-operable",
+                            "num": "2.1.1",
+                            "handle": "Tastatur",
+                            "text": "All funksjonalitet i innholdet kan betjenes via et tastaturgrensesnitt uten at det er behov for tidsberegning av de enkelte tastetrykkene, unntatt hvis den underliggende funksjonen krever inndata som er avhengige av rekkefølgen på brukerens bevegelser, og ikke bare av sluttpunktene.",
+                            "level": "A",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Dette unntaket gjelder den underliggende funksjonen, ikke inndatateknikken. Hvis teksten for eksempel skrives inn med håndskrift, krever inndatateknikken (håndskrift) inndata i en bestemt rekkefølge, men den underliggende funksjonen (tekstlige inndata) gjør det ikke."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 2",
+                                    "text": "Dette er ikke et forbud mot og bør ikke hindre bruk av mus eller andre inndatametoder i tillegg til tastatur."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:keyboard-operation-trapping",
+                            "num": "2.1.2",
+                            "handle": "Ingen tastaturfelle",
+                            "text": "Hvis tastaturfokus kan flyttes til en av komponentene på siden ved hjelp av et tastaturgrensesnitt, kan fokus flyttes fra den aktuelle komponenten bare ved hjelp av tastaturgrensesnittet. Hvis det er behov for noe annet enn standard pil- eller tabulatortaster eller andre standardmetoder for navigering, får brukeren informasjon om hvilken metode som må benyttes for å flytte fokus.",
+                            "level": "A",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad",
+                                    "text": "Alt innhold på websiden må overholde dette suksesskriteriet(uansett om det brukes til å oppfylle andre suksesskriterier eller ikke) fordi enhver form for innhold som ikke oppfyller dette suksesskrieriet, kan hindre brukeren i å bruke hele siden. Se Forutsetninger for samsvar med krav, punkt 5: Ingen interferens."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:keyboard-operation-all-funcs",
+                            "num": "2.1.3",
+                            "handle": "Tastatur (ingen unntak)",
+                            "text": "All funksjonalitet i innholdet kan betjenes via et tastaturgrensesnitt uten at det er behov for tidsberegning av de enkelte tastetrykkene.",
+                            "level": "AAA"
+                        }
+                    ]
+                },
+                {
+                    "id": "WCAG2:time-limits",
+                    "num": "2.2",
+                    "handle": ". Nok tid",
+                    "text": "Gi brukerne nok tid til å lese og bruke innhold.",
+                    "successcriteria": [
+                        {
+                            "id": "WCAG2:time-limits-required-behaviors",
+                            "num": "2.2.1",
+                            "handle": "Justerbar hastighet",
+                            "text": "For hver tidsbegrensning som er angitt av innholdet, gjelder minst ett av følgende punkter:",
+                            "level": "A",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Slå av",
+                                            "text": "Brukeren kan slå av tidsbegrensningen før den gjør seg gjeldende, eller"
+                                        },
+                                        {
+                                            "handle": "Justere",
+                                            "text": "Brukeren kan justere tidsbegrensningen før den gjør seg gjeldende, ved hjelp av en skala som er minst ti ganger varigheten av standardinnstillingen, eller"
+                                        },
+                                        {
+                                            "handle": "Forlenge",
+                                            "text": "Brukeren varsles før tiden utløper, og får minst 20 sekunder til å forlenge tidsbegrensningen ved hjelp av en enkel handling (for eksempel \"trykk på mellomromstasten\"), og brukeren kan forlenge tidsbegrensningen minst ti ganger, eller"
+                                        },
+                                        {
+                                            "handle": "Unntak i sanntid",
+                                            "text": "Tidsbegrensningen er en nødvendig del av en hendelse i sanntid (for eksempel en auksjon), og det finnes ikke noe alternativ til tidsbegrensningen, eller"
+                                        },
+                                        {
+                                            "handle": "Nødvendig unntak",
+                                            "text": "Tidsbegrensningen er nødvendig, og en forlengelse vil gjøre handlingen ugyldig, eller"
+                                        },
+                                        {
+                                            "handle": "20-timers unntak",
+                                            "text": "Tidsbegrensningen varer lenger enn 20 timer."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad",
+                                    "text": "Dette suksesskriteriet bidrar til å sikre at brukerne kan utføre oppgaver uten at det oppstår uforutsette endringer i innhold eller kontekst som er forårsaket av en tidsbegrensning. Dette suksesskriteriet bør ses i sammenheng med suksesskriterium 3.2.1, som setter begrensninger på endringer i innhold eller kontekst forårsaket av brukerhandlinger."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:time-limits-pause",
+                            "num": "2.2.2",
+                            "handle": "Pause, stopp, skjul",
+                            "text": "For bevegelse, blinking, rulling eller automatisk oppdatering av informasjon gjelder begge de følgende punkter:",
+                            "level": "A",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Bevegelse, blinking, rulling",
+                                            "text": "Ved enhver form for bevegelse, blinking eller rulling av informasjon som (1) starter automatisk, (2) varer i mer enn 5 sekunder, og (3) presenteres samtidig med annet innhold, finnes det en mekanisme som brukeren kan benytte til å sette den på pause, stoppe eller skjule den, med mindre bevegelsen, blinkingen eller rullingen er del av en handling der den er nødvendig."
+                                        },
+                                        {
+                                            "handle": "Automatisk oppdatering",
+                                            "text": "Ved enhver form for automatisk oppdatering av informasjon som (1) starter automatisk og (2) presenteres samtidig med annet innhold, finnes det en mekanisme som brukeren kan benytte til å sette den på pause, stoppe eller skjule den, eller til å styre oppdateringsfrekvensen, med mindre den automatiske oppdateringen er del av en handling der den er nødvendig."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Informasjon om krav som gjelder flimrende eller blinkende innhold,omtales i retningslinje 2.3."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 2",
+                                    "text": "Alt innhold på websiden må overholde dette suksesskriteriet (uansett om det brukes til å oppfylle andre suksesskriterier eller ikke) fordi enhver form for innhold som ikke oppfyller dette suksesskriteriet, kan hindre brukeren i å bruke hele siden. Se Forutsetninger for overholdelse av krav, punkt 5: Ingen interferens."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 3",
+                                    "text": "Innhold som oppdateres regelmessig av programvare, eller som spilles av direkte til brukeragenten, behøver ikke å kunne lagre eller presentere informasjon som genereres eller mottas fra pausen begynner til presentasjonen gjenopptas fordi dette ikke alltid er teknisk mulig og fordi det i mange situasjoner ville vært misvisende."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 4",
+                                    "text": "En animasjon som inngår i forhåndsinnlasting eller lignende, kan anses som nødvendig hvis det ikke kan forekomme interaksjon for noen brukere i denne fasen, og hvis mangel på en fremdriftsindikator kunne forvirre brukerne og skape inntrykk av at innholdet er enten frosset eller ødelagt."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:time-limits-no-exceptions",
+                            "num": "2.2.3",
+                            "handle": "Ingen tidsberegning",
+                            "text": "Tidsberegning er ikke en nødvendig del av hendelsen eller aktiviteten som presenteres i innholdet, med unntak av ikke-interaktive synkroniserte medier og hendelser i sanntid.",
+                            "level": "AAA"
+                        },
+                        {
+                            "id": "WCAG2:time-limits-postponed",
+                            "num": "2.2.4",
+                            "handle": "Avbrytelser",
+                            "text": "Avbrytelser kan utsettes eller undertrykkes av brukeren, med unntak av avbrytelser som skyldes en nødsituasjon.",
+                            "level": "AAA"
+                        },
+                        {
+                            "id": "WCAG2:time-limits-server-timeout",
+                            "num": "2.2.5",
+                            "handle": "Ny godkjenning",
+                            "text": "Når en godkjent økt utløper, kan brukeren godkjenne den på nytt og fortsette aktiviteten uten tap av data.",
+                            "level": "AAA"
+                        }
+                    ]
+                },
+                {
+                    "id": "WCAG2:seizure",
+                    "num": "2.3",
+                    "handle": ". Anfall",
+                    "text": "Ikke utform innhold på en måte som er kjent for å forårsake (epileptiske) anfall.",
+                    "successcriteria": [
+                        {
+                            "id": "WCAG2:seizure-does-not-violate",
+                            "num": "2.3.1",
+                            "handle": "Terskelverdi på maksimalt tre glimt",
+                            "text": "Websider har ikke innhold som glimter mer enn tre ganger i løpet av ett sekund, eller glimt er innenfor terskelverdiene for generelle glimt og røde glimt.",
+                            "level": "A",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad",
+                                    "text": "Fordi enhver form for innhold som ikke oppfyller dette suksesskriteriet kan hindre brukeren i å bruke hele siden, må alt innhold på websiden overholde dette suksesskriteriet (uansett om det brukes til å oppfylle andre suksesskriterier). Se Forutsetninger for samsvar med punkt 5: Ingen interferens."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:seizure-three-times",
+                            "num": "2.3.2",
+                            "handle": "Tre glimt",
+                            "text": "Websider har ikke innhold som glimter mer enn tre ganger i løpet av ett sekund.",
+                            "level": "AAA"
+                        }
+                    ]
+                },
+                {
+                    "id": "WCAG2:navigation-mechanisms",
+                    "num": "2.4",
+                    "handle": ". Navigerbar",
+                    "text": "Gjør det mulig for brukerne å navigere, finne innhold og vite hvor de befinner seg.",
+                    "successcriteria": [
+                        {
+                            "id": "WCAG2:navigation-mechanisms-skip",
+                            "num": "2.4.1",
+                            "handle": "Hoppe over blokker",
+                            "text": "Det finnes en mekanisme for å omgå blokker med innhold som gjentas på flere websider.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:navigation-mechanisms-title",
+                            "num": "2.4.2",
+                            "handle": "Sidetitler",
+                            "text": "Websider har titler som beskriver den aktuelle sidens emne eller formål.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:navigation-mechanisms-focus-order",
+                            "num": "2.4.3",
+                            "handle": "Fokusrekkefølge",
+                            "text": "Hvis en webside kan navigeres sekvensielt og navigeringssekvensen påvirker betydning eller betjening, får fokuserbare komponenter fokus i en rekkefølge som ivaretar betydningen og betjeningen.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:navigation-mechanisms-refs",
+                            "num": "2.4.4",
+                            "handle": "Formål med lenke (i kontekst)",
+                            "text": "Formålet med hver lenke kan fastslås ut fra bare selve lenken eller ut fra lenketeksten kombinert med programmeringsmessig bestemt lenkekontekst. Unntaket er hvis formålet med lenken ville vært flertydig for alle brukere.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:navigation-mechanisms-mult-loc",
+                            "num": "2.4.5",
+                            "handle": "Flere måter",
+                            "text": "Det finnes mer enn én måte å finne frem til en webside på innenfor et sett av websider. Unntaket er hvis websiden utgjør resultatet av, eller et trinn i, en prosess.",
+                            "level": "AA"
+                        },
+                        {
+                            "id": "WCAG2:navigation-mechanisms-descriptive",
+                            "num": "2.4.6",
+                            "handle": "Overskrifter og ledetekster",
+                            "text": "Overskrifter og ledetekster beskriver emne eller formål.",
+                            "level": "AA"
+                        },
+                        {
+                            "id": "WCAG2:navigation-mechanisms-focus-visible",
+                            "num": "2.4.7",
+                            "handle": "Synlig fokus",
+                            "text": "Tastaturbetjente brukergrensesnitt har en betjeningsmodus der fokusindikatoren for tastaturet er synlig.",
+                            "level": "AA"
+                        },
+                        {
+                            "id": "WCAG2:navigation-mechanisms-location",
+                            "num": "2.4.8",
+                            "handle": "Plassering",
+                            "text": "Det gis informasjon om hvor brukeren befinner seg innenfor et sett av websider.",
+                            "level": "AAA"
+                        },
+                        {
+                            "id": "WCAG2:navigation-mechanisms-link",
+                            "num": "2.4.9",
+                            "handle": "Formål med lenke (bare lenke)",
+                            "text": "Det finnes en mekanisme som gjør det mulig å identifisere formålet med en lenke ut fra bare selve lenketeksten. Unntaket er hvis formålet med lenken ville vært flertydig for alle brukere.",
+                            "level": "AAA"
+                        },
+                        {
+                            "id": "WCAG2:navigation-mechanisms-headings",
+                            "num": "2.4.10",
+                            "handle": "Deloverskrifter",
+                            "text": "Deloverskrifter brukes til å organisere innholdet.",
+                            "level": "AAA",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "\"Overskrift\" brukes i generell betydning og omfatter både titler og andre måter å sette inn overskrifter til ulike typer innhold på."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 2",
+                                    "text": "Dette suksesskriteriet omfatter tekst, ikke brukergrensesnittkomponenter. Brukergrensesnittkomponenter omtales under suksesskriterium 4.1.2."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "WCAG2:understandable",
+            "num": "3",
+            "handle": "Forståelig",
+            "text": "Det må være mulig å forstå informasjon og betjening av brukergrensesnitt.",
+            "guidelines": [
+                {
+                    "id": "WCAG2:meaning",
+                    "num": "3.1",
+                    "handle": ". Leselig",
+                    "text": "Gjør innholdet leselig og forståelig.",
+                    "successcriteria": [
+                        {
+                            "id": "WCAG2:meaning-doc-lang-id",
+                            "num": "3.1.1",
+                            "handle": "Språk på siden",
+                            "text": "Standard naturlig språk på hver webside kan bestemmes programmeringsmessig.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:meaning-other-lang-id",
+                            "num": "3.1.2",
+                            "handle": "Språk på deler av innhold",
+                            "text": "Naturlig språk i de enkelte avsnittene eller setningene som innholdet består av, kan bestemmes programmeringsmessig. Unntaket er egennavn, tekniske termer, ord av ubestemmelig språklig opphav samt ord eller uttrykk som har blitt en del av språket i den omkringliggende teksten.",
+                            "level": "AA"
+                        },
+                        {
+                            "id": "WCAG2:meaning-idioms",
+                            "num": "3.1.3",
+                            "handle": "Uvanlige ord",
+                            "text": "Det finnes en mekanisme som gjør det mulig å identifisere spesifikke definisjoner av ord eller uttrykk som brukes på en uvanlig eller begrenset måte, blant annet idiomer og fagspråk.",
+                            "level": "AAA"
+                        },
+                        {
+                            "id": "WCAG2:meaning-located",
+                            "num": "3.1.4",
+                            "handle": "Forkortelser",
+                            "text": "Det finnes en mekanisme for å identifisere den fullstendige formen eller betydningen av forkortelser.",
+                            "level": "AAA"
+                        },
+                        {
+                            "id": "WCAG2:meaning-supplements",
+                            "num": "3.1.5",
+                            "handle": "Leseferdighet",
+                            "text": "Når en tekst krever leseferdigheter på et nivå som er høyere enn det som forventes etter norsk ungdomsskole, etter at egennavn og titler er fjernet, finnes det supplerende innhold eller en versjon som ikke krever leseferdigheter på et nivå som er høyere enn det som forventes etter norsk ungdomsskole.",
+                            "level": "AAA"
+                        },
+                        {
+                            "id": "WCAG2:meaning-pronunciation",
+                            "num": "3.1.6",
+                            "handle": "Uttale",
+                            "text": "Det finnes en mekanisme for å identifisere den nøyaktige uttalen av ord hvis betydningen av ordene i kontekst er flertydig dersom uttalen ikke er kjent.",
+                            "level": "AAA"
+                        }
+                    ]
+                },
+                {
+                    "id": "WCAG2:consistent-behavior",
+                    "num": "3.2",
+                    "handle": ". Forutsigbar",
+                    "text": "Sørg for at websider presenteres og fungerer på forutsigbare måter.",
+                    "successcriteria": [
+                        {
+                            "id": "WCAG2:consistent-behavior-receive-focus",
+                            "num": "3.2.1",
+                            "handle": "Fokus",
+                            "text": "Når en komponent kommer i fokus, medfører det ikke kontekstendring.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:consistent-behavior-unpredictable-change",
+                            "num": "3.2.2",
+                            "handle": "Inndata",
+                            "text": "Endring av innstillingene til en brukergrensesnittkomponent medfører ikke automatisk kontekstendring med mindre brukeren er blitt varslet om det før bruk av komponenten.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:consistent-behavior-consistent-locations",
+                            "num": "3.2.3",
+                            "handle": "Konsekvent navigering",
+                            "text": "Navigeringsmekanismer som gjentas på flere websider innenfor et sett av websider, opptrer i samme relative rekkefølge hver gang de gjentas, med mindre brukeren selv foretar en endring.",
+                            "level": "AA"
+                        },
+                        {
+                            "id": "WCAG2:consistent-behavior-consistent-functionality",
+                            "num": "3.2.4",
+                            "handle": "Konsekvent identifikasjon",
+                            "text": "Komponenter som har samme funksjonalitet innenfor en samling av websider, identifiseres på en konsekvent måte.",
+                            "level": "AA"
+                        },
+                        {
+                            "id": "WCAG2:consistent-behavior-no-extreme-changes-context",
+                            "num": "3.2.5",
+                            "handle": "Endring på anmodning",
+                            "text": "Kontekstendringer foretas bare på anmodning fra en bruker. Eventuelt finnes det en mekanisme for å slå av slike endringer.",
+                            "level": "AAA"
+                        }
+                    ]
+                },
+                {
+                    "id": "WCAG2:minimize-error",
+                    "num": "3.3",
+                    "handle": ". Inndatahjelp",
+                    "text": "Hjelp brukere med å unngå feil og å rette opp feil.",
+                    "successcriteria": [
+                        {
+                            "id": "WCAG2:minimize-error-identified",
+                            "num": "3.3.1",
+                            "handle": "Identifikasjon av feil",
+                            "text": "Hvis en inndatafeil oppdages automatisk, identifiseres elementet som feilen berører, og brukeren får en tekstbeskrivelse av feilen.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:minimize-error-cues",
+                            "num": "3.3.2",
+                            "handle": "Ledetekster eller instruksjoner",
+                            "text": "Det vises ledetekster eller instruksjoner når innholdet krever inndata fra brukeren.",
+                            "level": "A"
+                        },
+                        {
+                            "id": "WCAG2:minimize-error-suggestions",
+                            "num": "3.3.3",
+                            "handle": "Forslag ved feil",
+                            "text": "Hvis en inndatafeil oppdages automatisk og det finnes forslag til hvordan den kan rettes, presenteres forslagene for brukeren, med mindre dette innebærer risiko for sikkerheten eller formålet med innholdet.",
+                            "level": "AA"
+                        },
+                        {
+                            "id": "WCAG2:minimize-error-reversible",
+                            "num": "3.3.4",
+                            "handle": "Forhindring av feil (juridiske feil, økonomiske feil, datafeil)",
+                            "text": "For websider som medfører juridiske forpliktelser eller krever økonomiske transaksjoner fra brukeren, som endrer eller sletter brukerstyrte data i datalagringssystemer, eller som sender svar på tester utført av brukeren, gjelder minst ett av følgende punkter:",
+                            "level": "AA",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "Reverserbarhet",
+                                            "text": "Sendeprosesser kan reverseres."
+                                        },
+                                        {
+                                            "handle": "Kontroll",
+                                            "text": "Det kontrolleres om data som angis av brukeren, inneholder inndatafeil, og brukeren gis mulighet til å rette opp eventuelle feil."
+                                        },
+                                        {
+                                            "handle": "Bekreftelse",
+                                            "text": "Det finnes en mekanisme for gjennomgang, bekreftelse og oppretting av informasjon før den sendes."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:minimize-error-context-help",
+                            "num": "3.3.5",
+                            "handle": "Hjelp",
+                            "text": "Det finnes kontekstavhengig hjelp.",
+                            "level": "AAA"
+                        },
+                        {
+                            "id": "WCAG2:minimize-error-reversible-all",
+                            "num": "3.3.6",
+                            "handle": "Forhindring av feil (alle)",
+                            "text": "For websider som krever at brukeren sender informasjon, gjelder minst ett av følgende punkter:",
+                            "level": "AAA",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "Reverserbarhet",
+                                            "text": "Sendeprosesser kan reverseres."
+                                        },
+                                        {
+                                            "handle": "Kontroll",
+                                            "text": "Det kontrolleres om data som angis av brukeren, inneholder inndatafeil, og brukeren gis mulighet til å rette opp eventuelle feil."
+                                        },
+                                        {
+                                            "handle": "Bekreftelse",
+                                            "text": "Det finnes en mekanisme for gjennomgang, bekreftelse og oppretting av informasjon før den sendes."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "WCAG2:robust",
+            "num": "4",
+            "handle": "Robust",
+            "text": "Innholdet må være robust nok til at det kan tolkes på en pålitelig måte av brukeragenter, inkludert kompenserende teknologi.",
+            "guidelines": [
+                {
+                    "id": "WCAG2:ensure-compat",
+                    "num": "4.1",
+                    "handle": ". Kompatibel",
+                    "text": "Sørg for best mulig kompatibilitet med aktuelle og fremtidige brukeragenter, inkludert kompenserende teknologi.",
+                    "successcriteria": [
+                        {
+                            "id": "WCAG2:ensure-compat-parses",
+                            "num": "4.1.1",
+                            "handle": "Parsing (oppdeling)",
+                            "text": "I innhold som implementeres ved hjelp av oppmerkingsspråk, har elementene fullstendige start- og sluttkoder, elementene er nøstet i henhold til spesifikasjonene, elementene inneholder ikke dupliserte attributter, og eventuelle ID-er er unike. Unntaket er hvis spesifikasjonene tillater disse funksjonene.",
+                            "level": "A",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad",
+                                    "text": "Start- og sluttmarkører som mangler et nødvendig tegn, for eksempel avsluttende hakeparentes, eller som har feil angivelse av anførselstegn for attributtverdier, er ikke fullstendige."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "WCAG2:ensure-compat-rsv",
+                            "num": "4.1.2",
+                            "handle": "Navn, rolle, verdi",
+                            "text": "For alle brukergrensesnittkomponenter (blant annet skjemaelementer, lenker og komponenter som genereres ved hjelp av skript), kan navn og rolle bestemmes programmeringsmessig. Tilstander, egenskaper og verdier som kan angis av brukeren, kan angis programmeringsmessig, og informasjon om endringer i disse elementene er tilgjengelig for brukeragenter, inkludert kompenserende teknologi.",
+                            "level": "A",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad",
+                                    "text": "Dette suksesskriteriet er primært beregnet på produsenter av webinnhold som utvikler eller lager skript til egne brukergrensesnittkomponenter. Standard HTML-kontrollelementer oppfyller for eksempel allerede dette suksesskriteriet når de brukes i henhold til spesifikasjonen."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

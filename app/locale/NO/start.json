@@ -1,0 +1,17 @@
+{
+    "TITLE": "WCAG-EM rapporteringsverktøy",
+    "SUBTITLE": "Rapportgenerator for evaluering av et nettsteds tilgjengelighet",
+    "INTRO_HD": "Hva dette verktøyet gjør",
+    "INTRO_1": "Dette verktøyet hjelper deg med å generere en rapport i henhold til <a href={{link_wcagem}}> metode for evaluering av et nettsteds tilgjengelighet (WCAG-EM)</a>. Verktøyet utfører ingen tilgjengelighetskontroller selv. Det hjelper deg til å følge trinnene i WCAG-EM for å generere en <a href=ighte.link_report> strukturert rapport </a> fra dataene du legger inn. Det er designet for erfarne brukere som kjenner til <a href = {{link_wcag}}> Retningslinjer for tilgjengelig nettinnhold (WCAG) 2 </a> og er litt kjent med WCAG-EM. For en introduksjon til WCAG-EM, se <a href=is/link_conformance}}> WCAG-EM oversikt </ a>. ",
+    "INTRO_2": "<strong> Merk: </strong> Dette verktøyet lagrer ikke automatisk informasjonen du oppgir. For å lagre dataene dine i en fil lokalt på datamaskinen din, bruker du Windows snarveistaster Ctrl + S eller Mac snarveistaster {{mac}} for å åpne Lagre-dialogboksen. (Eller 'Lagre'-koblingen øverst på siden åpner siden 'Lagre evalueringsrapport', og derfra vil du kunne lagre filen lokalt til datamaskinen din.)",
+    "USAGE_HD": "Slik fungerer dette verktøyet",
+    "USAGE_LI1": "All funksjonalitet som tilbys av dette verktøyet er nå lastet og kjører lokalt i nettleseren din. Du trenger ikke en Internett-tilkobling utover dette punktet. Når du lukker nettleservinduet, går ikke lagrede data tapt.",
+    "USAGE_LI2": "All data som du legger inn i dette verktøyet blir registrert som JSON-data i bakgrunnen (i nettleseren din, ikke på noen server). Du kan lagre med jevne mellomrom mens du jobber for å unngå å miste data hvis nettleseren din stenger. ",
+    "USAGE_LI3": "Du kan lagre delvis komplette rapporter og jobbe med dem senere. For å laste inn en lagret fil ved å bruke 'Åpne' -koblingen øverst og finne filen du tidligere lagret.",
+    "USAGE_LI4": "Koblinger som ikke er en del av navigasjonen eller funksjonaliteten (lenker til eksterne ressurser), åpnes i et nytt nettleservindu.",
+    "TIPS_HD": "Tips for bruk",
+    "TIPS_LI1": "Du kan gå frem og tilbake mellom trinnene i hvilken som helst rekkefølge. Ingen av feltene er obligatoriske.",
+    "TIPS_LI2": "For å få mer informasjon om et felt, velg ikonet {{info}} ved siden av feltetiketten.",
+    "TIPS_LI3": "Verktøyet leverer rapporten din som HTML- og CSS-filer. Du kan laste ned disse filene fra 'Vis rapport'-siden. Du kan deretter endre rapportinnhold og design.",
+    "TIPS_LI4": "Du kan ta med i rapporten WCAG 2 suksesskriterier utover samsvarsmål. Hvis nettstedet for eksempel er påkrevd å oppfylle nivå AA, men du ønsker å inkludere suksesskriterier for nivå AAA i rapporten. Bruk i steg 4 filter for å vise kriterier på høyere nivå. Alle kriterier med et resultat vil inkluderes i rapporten. "
+}

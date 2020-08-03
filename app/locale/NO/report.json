@@ -1,0 +1,18 @@
+{
+    "TITLE": "Trinn 5: Rapporter evalueringsfunnene",
+    "INTRO": "Gi mer informasjon om evalueringen du vil ha med i rapporten. Evalueringsfunnene du la inn i forrige trinn, er inkludert nedenfor under 'Detaljerte revisjonsresultater' for gjennomgang og for å hjelpe deg med å skrive den samlede sammendraget. Mer veiledning om dette trinnet er gitt i <a href={{link_em_5}}> WCAG-EM trinn 5: Rapporter evalueringsfunnene </a>. ",
+    "LABEL_TITLE": "Rapporttittel",
+    "TITLE_PREFIX": "Rapport for",
+    "INF_TITLE": "Oppgi en tittel for evalueringsrapporten for nettstedets tilgjengelighet. For eksempel: <br> 'Evalueringsrapport for eksempel organisasjon' <br> 'nettshop Tilgjengelighetsanalyse og forslag til reparasjon'",
+    "LABEL_COMMISSIONER": "Evalueringskommisjonær",
+    "INF_COMMISSIONER": "Personen, teamet av mennesker, organisasjonen, avdelingen eller en annen enhet som har bestilt evalueringen.",
+    "LABEL_CREATOR": "Evaluator",
+    "INF_CREATOR": "Personen, teamet av mennesker, organisasjonen, egen avdeling eller annen enhet som er ansvarlig for å gjennomføre evalueringen.",
+    "LABEL_DATE": "Evalueringsdato",
+    "INF_DATE": "Oppgi fullføringsdato eller varighetsdatoer for denne evalueringen. Du kan bruke hvilket som helst datoformat.",
+    "LABEL_SUMMARY": "Sammendrag",
+    "INF_SUMMARY": "Gi et kort sammendrag av evalueringsfunnene for å gi en oversikt over resultatene. Beskriv for eksempel den generelle tilgjengeligheten til nettstedet og viktige observasjoner du gjorde under evalueringen, for eksempel problemer og mønstre som ofte forekommer.",
+    "LABEL_SPECIFICS": "Registrering av evalueringsspesifikasjoner (valgfritt)",
+    "INF_SPECIFICS": "WCAG-EM foreslår at du arkiverer de nettsidene som er revidert. For mer informasjon, se <a href={{link_em_5b}}> WCAG-EM Trinn 5.b: Registrer evalueringsspesifikkene </a>. Du kan bruke dette tekstfeltet til å registrere evalueringsverktøyene, nettlesere, hjelpemiddelteknologier, annen programvare og metoder som er brukt for evalueringen. Det du skriver inn her, vil bli inkludert i den genererte rapporten. Etter at du har lastet ned rapporten, kan du slette eller redigere denne informasjonen i HTML-filen før du sender inn rapporten. ",
+    "HD_CRITERIA_REPORT": "Detaljerte resultater"
+}

@@ -1,0 +1,6 @@
+{
+    "TITLE": "Lagre evalueringsrapport",
+    "INTRO": "Bruk lenken nedenfor for å lagre evalueringsrapportinformasjonen du har skrevet som en JSON-datafil lokalt på datamaskinen din.",
+    "BTN_DOWNLOAD_DATA_FILE": "Lagre datafilen lokalt på datamaskinen din",
+    "TIPS": "Du kan lagre delvis fullførte rapporter (og notater) og jobbe med dem senere. Du kan åpne dem fra hvilken som helst nettleser, og du kan overføre datafilen til en annen datamaskin. <br> Du kan lagre med jevne mellomrom som du arbeid for å unngå å miste data dersom nettleseren din lukkes uforutsett. Du kan bruke snarveistaster - Windows Ctrl + S eller Mac snarveistasten ⌘ S - for å åpne Lagre-dialogboksen (eller automatisk lagre den i nedlastingsmappen, avhengig av nettleserinnstillingene). <br > Når du er ferdig med å legge inn informasjon i evalueringsrapporten, kan du laste ned en HTML-fil av den fullførte rapporten fra <a href={{link_report}}>vis rapport</a>-siden. "
+}
